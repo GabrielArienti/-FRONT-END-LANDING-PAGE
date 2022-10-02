@@ -1,0 +1,132 @@
+body {
+  height: 100%;
+  margin: 0 auto;
+  background-color: #1f1f1f;
+  color: white;
+  font-family: poppinsregular;
+  max-width: 1200px;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  color: white;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 20px;
+}
+
+li:hover {
+  color: #47ff07;
+  transition: 0.3s all;
+}
+
+#criar-conta {
+  border: 2px solid #47ff07;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#criar-conta:hover {
+  background-color: #47ff07;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+img {
+  width: 700px;
+  height: 100%;
+  object-fit: contain;
+}
+
+aside {
+  margin-top: 0px;
+}
+
+h1 {
+  color: #47ff07;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+}
+
+h2.segundo {
+  color: #47ff07;
+  font-family: poppinsmedium;
+}
+
+p {
+  max-width: 500px;
+  line-height: 20px;
+  font-family: poppinslight;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form[type="submit"] {
+  height: 50px;
+  width: 50%;
+  background-color: #47ff07;
+  color: white;
+  font-weight: bold;
+  align-content: center;
+}
+
+form[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #38e000;
+  transition: 0.3s all;
+}
+
+input {
+  margin-top: 10px;
+  height: 10px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+#botao {
+  background-color: #47ff07;
+  height: 50px;
+  width: 50%;
+  color: white;
+  font-weight: bolder;
+  font-family: poppinsbold;
+}
+
+#botao:hover {
+  background-color: #32c501;
+  cursor: pointer;
+}
